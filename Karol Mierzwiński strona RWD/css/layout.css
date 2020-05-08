@@ -1,0 +1,43 @@
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+input{
+    position: absolute;
+    right: 2px;
+}
+
+.portfolio{
+    display: flexbox;
+    justify-self: start;
+}
+
+@media (min-width: 750px) {
+
+    #menu{
+
+        flex-direction: row;
+        justify-content: space-between
+    } 
+
+    #menu > input{
+
+        display: none;
+
+    }
+
+    #fig{
+        
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
